@@ -1,9 +1,9 @@
-import React from 'react'
+import style from '../styles/Account.module.css'
 
 export default function Account() {
   return (
-    <div>
-      <h2>account</h2>
+    <div className={style.base}>
+      <h2 className={style.header}>account</h2>
     </div>
   )
 }
