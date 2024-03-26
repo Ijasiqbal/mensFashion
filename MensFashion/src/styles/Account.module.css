@@ -1,7 +1,51 @@
 .base{
-    background-color: aqua;
+    padding: 0 5%;
+
+}
+.AccBanner{
+    border: 2px solid rgb(231, 231, 231);
+    padding: 10px 25px;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+}
+.cols2{
+    display: flex;
+}
+.LHS{
+    border: 0px solid rgb(231, 231, 231);
+    width: 280px;
+    padding-top: 25px;
+}
+.options{
+    border: 2px solid rgb(231, 231, 231);
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
     
 }
-.header{
-    font-size: 100px;
+.options:hover .icons{
+    filter:opacity(100%);
+}
+
+.selectedOption{
+    color: white;
+    background-color: black;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    .icons{
+        filter: opacity(100%);
+    }
+
+}
+.RHS{
+    border: 0px solid rgb(231, 231, 231);
+    padding: 10px 0px;
+    padding-top: 25px;
+    padding-left: 3%;
+    width: 100%;
+}
+.icons{
+    padding-right: 15px;
+    filter: opacity(60%);
 }
