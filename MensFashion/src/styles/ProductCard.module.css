@@ -1,0 +1,36 @@
+.base{
+    display: inline-block;
+    width: 26%;
+    img{
+        width: 100%;
+    }
+}
+.productName{
+    font-weight: 300;
+    font-size: 22px;
+
+}
+.productPrice{
+    font-weight: 300;
+    font-size: 22px;
+
+}
+.productsList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: black;
+}
+@media screen and (max-width: 768px){
+    .base{
+        width: 45%;
+    }
+    .productName{
+        font-size: 18px;
+    }
+    .productPrice{
+        font-size: 18px;
+    }
+    
+}
