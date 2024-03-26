@@ -43,7 +43,7 @@ function LoginForm() {
       </div>
       {error && <div className="error-message">{error}</div>}
       <button className='button-login ' type="submit">Log in</button>
-      <Link to="/Signup"> <button className='button-create-account'>Create Account</button></Link>
+      <Link to="/create-account"> <button className='button-create-account'>Create Account</button></Link>
     </form>
     </div>
   );
