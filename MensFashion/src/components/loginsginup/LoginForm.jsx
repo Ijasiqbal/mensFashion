@@ -26,7 +26,7 @@ function LoginForm() {
 
   return (
 
-    <div>
+    <div className='login-container'>
       <form className="login-form" onSubmit={handleSubmit}>
       <h2 >Sign In</h2> {/* Added Sign In heading */}
       <div className="form-group">

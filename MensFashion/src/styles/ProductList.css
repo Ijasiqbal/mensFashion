@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px; /* Add gap between grid items */
+  justify-content: space-around; /* Add space around grid items horizontally */
+  align-content: space-around; /* Add space around grid items vertically */
+  font-family: "Inter", sans-serif;
+  margin-left: 20px;
+  padding: 20px;
+}

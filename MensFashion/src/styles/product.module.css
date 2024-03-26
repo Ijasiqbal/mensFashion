@@ -1,0 +1,79 @@
+/* product.module.css */
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.product:last-child {
+  margin-right: 0;
+}
+
+.product-image {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.product-image img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.product-image:hover img {
+  transform: scale(1.1);
+}
+
+.add-to-wishlist {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.price-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.price-details {
+  display: flex;
+}
+
+.original-price {
+  color: #888;
+  margin-right: 5px; /* Add some space between original price and discounted price */
+}
+
+.discounted-price {
+  font-weight: bold;
+  color: #333;
+}
+
+.discount-percentage {
+  color: green;
+  margin-left: 5px; /* Add some space between discounted price and discount percentage */
+}
+
+.add-to-bag {
+  background-color: transparent;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.add-to-bag:hover {
+  background-color: white;
+  text-decoration-color: blue;
+}

@@ -4,16 +4,20 @@ import Home from './pages/home';
 import AccountPage from './pages/AccountPage';
 import SignupForm from './components/loginsginup/SignupForm';
 import LoginForm from './components/loginsginup/LoginForm';
+import Product from './pages/ProductList';
+import Individualpage from './pages/individualproduct';
 
 function App() {
+  
   return (
     <Router>
-      <Routes>
-        <Route />
+      <Routes> 
         <Route path="/" element={<Home />} />
-        <Route path='/Signup' element={<SignupForm/>}/>
-        <Route path='/Login' element={<LoginForm  />} />
+        <Route path='/create-account' element={<SignupForm/>}/>
+        <Route path='/login' element={<LoginForm  />} />
         <Route path="/account" element={<AccountPage />} />
+        <Route path='/product' element={<Product/>}/>
+        <Route path='/individualpage' element={<Individualpage />}/>
       </Routes>
     </Router>
   );
