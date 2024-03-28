@@ -1,0 +1,432 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #000000;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  /*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');*/
+  
+  .heading
+  {
+    font-family: popins;
+    font-size: 1.7rem;
+  
+  }
+ .mainbox
+ {
+      padding-left: 5.5%;
+    padding-right: 5;
+    position: fixed;
+    background-color: #ffffff;
+    justify-content: center;
+    width: 100%;
+ }
+ 
+  /*.menu-container
+  {
+      padding: 3rem 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(50rem,2fr));
+      gap: 5rem 10rem;
+  }*/
+  .container1
+  {
+    padding-right: 0px;
+  }
+  /*.container 
+   {
+      display: flex;
+  
+    }*/
+    
+   img
+    {
+      
+          height:18rem ;
+          width: 100%;
+          overflow: hidden;
+         /* border: 1px solid #000000;*/
+          border-radius: 5px;
+       justify-items: center;
+    }
+    .item
+    {
+      
+      display: inline-block;
+     justify-content: space-evenly;
+  /* border: 1px groove #454343;*/
+  padding: 30px;
+  border-radius: 5px;
+  background-color: #ffffff;
+    }
+   /* .card
+    {
+      border: 1px solid rgba(0, 0, 0, 0.085); /* Adjust thickness and color as needed 
+     
+    }*/
+  .offer
+    {
+      color: rgb(20, 166, 20);
+      font-size: 15px;
+      font-weight: 400;
+    }
+  .mrp
+  {
+      font-size: 13px;
+      color: rgba(74, 79, 74, 0.825);
+  }
+  .price
+  {
+      color: rgb(0, 0, 0);
+      font-size: 14px;
+      font-weight: 500;  
+  }
+  .card-item
+  {
+      color: rgba(19, 19, 19, 0.767);
+      font-size: 16px;
+      font-weight: 250;  
+      margin-top: 2px; 
+      margin-bottom: 2px;
+      padding-top: 10px;
+      letter-spacing: 0.03rem;
+  }
+  .box1
+  {
+     justify-content: center;
+    padding-right: 150px;
+  
+  }
+  .box2
+  {
+     justify-content: center;
+     display: flex;
+     font-weight: 400;
+     align-items: center;
+  
+  }
+  .filter
+  {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top:41px; /* Adjust as needed */
+    left: 80px; /* Adjust as needed */
+  }
+  .filter1
+  {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top:43px; /* Adjust as needed */
+    left: 110px; /* Adjust as needed */
+  }
+  .rec
+  {
+   display: flex;
+    font-size: 14px;
+  }
+  .recmain
+  {
+    display: flex;
+    position: fixed;
+    top: 45px; /* Adjust as needed */
+    right: 80px; /* Adjust as needed */
+    font-size: 14px;
+  }
+  .arrow
+  {
+    padding-left: 5px;
+  }
+  .img
+  {
+   /*   border-bottom: 2px groove #000000;*/ /* Add a solid black border bottom to the image */
+      padding-bottom: 10px; /* Add padding to create space between the image and the content */
+      margin-bottom: 0px;
+      background-color: #f0efef;
+      padding: 0px;
+      border-radius: 5px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .cardbody
+  {
+  
+           /* Adjust the top padding value as needed */
+        padding-bottom: 5px;
+        
+  
+  }
+
+  .cart
+  {
+  padding-bottom: 10px;
+  font-size: 1rem;
+  
+  }
+  .button-solid {
+    border: none;
+    background: none;
+    /* Add any other styling you want */
+  }
+  .cross
+  {
+    z-index: 5;
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    height: 2px;
+    width: 20px;
+  color: #000000;
+  }
+  
+  @media (max-width: 768px) {
+    .wishlist {
+      padding: 20% 10%; /* Reduce padding for smaller screens */
+   
+    }
+  
+    .menu-container {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust grid columns for smaller screens */
+      gap: 3rem; /* Reduce gap between items */
+    }
+  
+    .container {
+      flex-direction: column; /* Stack items in a column */
+      align-items: center; /* Center items horizontally */
+    }
+  
+    img {
+      width: 100%; /* Make images responsive */
+      height: auto;
+    }
+  
+    .item {
+      display: inline-block!important;
+      margin-bottom: 20px; /* Add spacing between items */
+      height: 60%;
+    }
+    .card{
+      display: inline-block!important;
+    }
+  
+    
+  
+    .cross {
+      left: auto; /* Center the cross icon */
+      right: 10px;
+    }
+  
+   
+    .cart
+    {
+      justify-content: center;
+    }
+    
+  }
+  
+  
+  
+  @media (max-width: 468px) {
+    .box2
+    {
+        background-color: #000000;
+        width: 100%;
+        left: 30px; /* Adjust as needed */
+      top: 700px;
+    }
+    .wishlist {
+      padding-left: 1px; /* Reduce padding for smaller screens */
+   padding-top: 0px;
+   padding-right: 5px;
+   
+    }
+    .menu-container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust grid columns for smaller screens */
+      gap: 1.5rem; /* Reduce gap between items */
+    }
+  
+    .container1 {
+      flex-direction: column; /* Stack items in a column */
+     /* align-items: center;  Center items horizontally */
+     padding-left: 0px;
+    }
+  
+    .img {
+      width: 100%; /* Make images responsive */
+      height: auto;
+      border-radius: 0px;
+    }
+  
+  
+        .mainbox
+    {   
+        height: 5%;
+        padding-left: 15%;
+           
+    }
+    .heading
+    {
+      margin-top: 6px;
+    
+    }
+  
+    .cross {
+      left: auto; /* Center the cross icon */
+      right: 10px;
+    }
+
+    .item {
+      display: inline-block!important;
+      margin-bottom: 1px; /* Add spacing between items */
+        padding: 2px;
+        justify-content: space-evenly;
+        width: 48.8%;
+        border-radius: 0px;
+    }
+    
+    .cart
+    {
+      justify-content: space-around;
+      font-size: 0.7rem;
+    }
+    .offer
+    {
+   
+      font-size: 10px;
+      
+
+    }
+  .mrp
+  {
+      font-size: 7px;
+     
+  }
+  .price
+  {
+      color: rgb(0, 0, 0);
+      font-size: 10px;
+       
+  }
+  .card-item
+  {
+
+      font-size: 10px;
+      
+      letter-spacing: 0.02rem;
+  }
+  .row
+  {
+    padding-top: 50px;
+    display: flex!important;
+    flex-wrap: wrap;
+    align-items: start;
+justify-content: space-between;
+ margin-left: 0px;
+  }
+    /*-------------------------------------------*/
+   
+    .filter
+    {
+      border:  #000000;
+      position: fixed;
+      bottom:0px; /* Adjust as needed */
+      left: 3px; /* Adjust as needed */
+      top: 700px;
+      background-color: #ffffff;
+      width: 100%;
+      font-size: 14px;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    .vertical-hr {
+    
+      border-left: 3px solid black; /* Adjust thickness as needed */
+      height: 38px; /* Adjust height as needed */
+      width: 0; /* This ensures it doesn't take horizontal space */
+      margin-left: 131.5px ;
+    }
+    .filtext
+    {
+      padding-left:20px ;
+    }
+    .filter1
+    {
+     
+      padding-top:669px ;
+      left: 50px;
+    }
+    .rec
+    {
+     padding-top: 3px;
+      font-size: 12px;
+    }
+    .recmain
+    {
+     
+      position: fixed;
+      top: 710px; /* Adjust as needed */
+      right: 5px; /* Adjust as needed */
+      font-size: 13px;
+     
+      background-color: #ffffff;
+    }
+
+    .row
+    {
+      padding-top: 70px;
+      display: flex!important;
+      flex-wrap: wrap;
+      align-items: start;
+  padding-right: 3px;
+   margin-left: 5px!important;
+    }
+    .box1
+    {
+       justify-content: center;
+      padding-right: 100px;
+    
+    }
+  }
+
+  .row
+  {
+    padding-top: 50px;
+    display: flex!important;
+    flex-wrap: wrap;
+    align-items: start;
+
+ margin-left: 5%;
+  }
