@@ -6,6 +6,7 @@ import SignupForm from './components/loginsginup/SignupForm';
 import LoginForm from './components/loginsginup/LoginForm';
 import Product from './pages/ProductList';
 import Individualpage from './pages/individualproduct';
+import Cart from './pages/Cart';
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
         <Route path="/account" element={<AccountPage />} />
         <Route path='/product' element={<Product/>}/>
         <Route path='/individualpage' element={<Individualpage />}/>
+        <Route path='/cart' element={<Cart/>}/>
       </Routes>
     </Router>
   );

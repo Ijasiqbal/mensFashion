@@ -1,0 +1,134 @@
+.base{
+    padding: 40px 8%;
+}
+.layout{
+    border: 0px solid rgb(231, 231, 231);
+    display: flex;
+    justify-content: space-between;
+
+}
+.lhs{
+    display: flex;
+    flex-direction: column;
+    border: 0px solid rgb(231, 231, 231);
+    padding: 10px 0px;
+    padding-right: 15px;
+    width: 65%;
+    
+}
+.rhs{
+    border: 0px solid rgb(231, 231, 231);
+    padding: 10px 0px;
+    padding-left: 15px;
+    width: 35%;
+}
+.checkout{
+    border: 1px solid rgb(231, 231, 231);
+    padding: 10px 25px;
+    span{
+        display: inline-block;
+        margin-left: auto;
+        justify-content: end;
+    }
+    input {
+        width: 100px;
+        border-bottom: 1px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        text-align: right;
+      }
+      
+      input::placeholder {
+        text-align: right;
+        opacity: 1; /* This will make the placeholder fully visible */
+      }
+      input:focus {
+        border-bottom: 1px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        outline: none;
+      }
+      
+}
+.address{
+    display: flex;
+    border: 1px solid rgb(231, 231, 231);
+    padding: 10px 25px;
+    font-size: 15px;
+    margin-bottom: 35px;
+    justify-content: space-between;
+    gap: 15px;
+    
+}
+.addrsBtn{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    margin-top: auto;
+    
+}
+.name{
+    padding-bottom: 5px;
+}
+.orderSummary{
+    font-size: 18px ;
+    font-weight: 500;
+}
+.checkoutBtn{
+    display: block;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px 15px;
+    margin: 15px auto;
+    margin-top: 25px;
+    width: 100%;
+
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+  }
+.grandtotal{
+    font-weight: 500;
+}
+@media screen and (max-width: 768px){
+    .layout{
+        display: block;
+    }
+    .lhs{
+        width: 100%;
+    }
+    .rhs{
+        width: 100%;
+        padding-left: 0px;
+    }
+    .checkout{
+        padding: 10px 15px;
+    }
+    .address{
+        padding: 10px 15px;
+    }
+    .addrsBtn{
+        width: 100%;
+    }
+    .checkoutBtn{
+        padding: 15px 15px;
+    }
+    .name{
+        width: 170%!important;
+        margin-bottom: 10px;
+    }
+
+    
+}
+
+

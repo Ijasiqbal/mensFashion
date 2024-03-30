@@ -147,6 +147,10 @@
         width: 90%!important;
         font-size: 12px!important;
         }
+    .productsList{
+        margin-top: 20px;
+        padding-bottom: 0;
+    }
     
 }
 /* End Trends */
@@ -221,20 +225,29 @@
 }
 @media screen and (max-width: 769px){
     .categoryList{
-        flex-direction: column;
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between; /* Adjusts the space between the categories */
+        flex-wrap: wrap;
     
     }
     .category{
-        width: 100%!important;
+        width: 49%!important;
+        overflow: hidden;
+        margin-bottom: 10px;
     }
     .categorySection{
         padding: 0 10%!important;
+        h2{
+            font-size: 30px!important;
+            line-height: 34px!important;
+        }
     }
     .TextStrip{
-        font-size: 36px!important;
-        line-height: 40px!important;
-        width: 80%!important;
-        transform: translateY(-400%)!important;
+        font-size: 18px!important;
+        line-height: 20px!important;
+        width: 39%!important;
+        transform: translateY(-300%)!important;
     }
     
 }
