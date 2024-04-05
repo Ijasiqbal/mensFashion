@@ -48,13 +48,14 @@ function SignupForm() {
             countryCallingCodeEditable={true}
             value={phoneNumber}
             onChange={setPhoneNumber}
+            required
           />
         </div>
         <div className="form-group">
           <div className="icon">
             <FontAwesomeIcon icon={faEnvelope} />
           </div>
-          <input className='input-section' type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
+          <input className='input-section' type="email" placeholder="Email" value={email} required onChange={(e) => setEmail(e.target.value)} />
         </div>
         <div className="form-group">
           <div className="icon">
